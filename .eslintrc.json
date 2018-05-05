@@ -1,0 +1,24 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "env": {
+        "browser": true
+    },
+    "plugins": ["react", "jsx-a11y", "import"],
+    "rules": {
+        "no-console": 0,
+        "quotes": ["warn", "double"],
+        "indent": ["warn", 4],
+        "react/jsx-filename-extension": 0,
+        "react/jsx-indent": 0,
+        "no-underscore-dangle": 0,
+        "prefer-destructuring": 0,
+        "max-len": 0,
+        "comma-dangle": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": [["jquery", "./src/omnis/libs/jquery-2.2.0.js"]]
+        }
+    }
+}
